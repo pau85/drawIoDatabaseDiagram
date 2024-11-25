@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.0">
-  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2130" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="ER Diagram">
+    <mxGraphModel dx="3601" dy="2231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
           <mxGeometry x="-53.75" y="550" width="287.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="2te_wfa_4X3YV4hR2Sw0-48" value="Please note that despite the SkillType and Project most likely having only a one to one relationship, I left it open for it to be optional many to many." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="280" width="240" height="220" as="geometry" />
+          <mxGeometry x="-293.75" y="90" width="240" height="220" as="geometry" />
         </mxCell>
         <mxCell id="E1TpHn2PlvXWTSZgjYdX-1" value="SkillExperienceType" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#CC6600;" parent="1" vertex="1">
           <mxGeometry x="1255" y="400" width="170" height="140" as="geometry" />
@@ -149,6 +149,9 @@
               <mxPoint x="1384.5" y="690" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Zc9Av4I6HYZdf9Y0DeND-1" value="Here is the additional entity that only interact with the Skill entity." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="480" width="240" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
